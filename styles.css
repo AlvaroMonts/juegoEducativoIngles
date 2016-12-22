@@ -1,0 +1,88 @@
+
+
+
+body{
+	margin-left:33%;
+	text-align:center;
+	background-image: url("img/fondo1.jpg");
+}
+#juego {
+    opacity: 0.3;
+    width: 600px;
+    height: 600px;
+}
+
+table {
+	margin-top:30%;
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    width: 25%;
+    height: 25%;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.letra {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+input {
+    width: 90px;
+    height: 30px;
+}
+
+.ph-button {
+    border-style: solid;
+    border-width: 0px 0px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;	   
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;	
+    font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+    font-weight: 700;	
+    padding: 19px 39px 18px;
+    font-size: 18px;
+	
+}
+#botones{
+margin-right:670px;
+}
+.ph-float {
+  
+  float: center;
+  padding: 10px;  
+  padding-top: 50px;  
+  text-align: center;
+
+}
+.ph-clear {
+  
+  clear: both;
+   
+}
+
+.ph-btn-green {
+
+    border-color: #3AC162;
+	background-color: #5FCF80;
+
+}
+.ph-btn-green:hover, .ph-btn-green:focus, .ph-btn-green:active {
+    background-color: #4BC970;
+    border-color: #3AC162;    
+}
